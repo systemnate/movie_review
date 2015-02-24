@@ -85,5 +85,6 @@ Rails.application.configure do
       :secret_access_key => ENV['AWS_SECRET_ACCESS_KEY']
     }
   }
-  Paperclip.options[:command_path] = "/usr/bin/convert"  
+  Paperclip.options[:command_path] = "/usr/bin/convert"
+  config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
 end
