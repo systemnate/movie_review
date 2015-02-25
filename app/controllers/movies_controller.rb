@@ -3,6 +3,14 @@ class MoviesController < ApplicationController
   before_action :authenticate_user!, except: [:index, :show]
   attr_accessor :image_file_name
 
+  def search
+    if params[:search].present?
+      @movies = Movie.search(params[:search])
+    else
+      @movies = Movie.all
+    end
+  end
+
   def index
     @movies = Movie.all
   end
