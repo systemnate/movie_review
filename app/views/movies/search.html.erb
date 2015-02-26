@@ -7,3 +7,17 @@
     </div>
   <% end %>
 </div>
+<h1>Requests from TMDB:</h1>
+<% if @movies_api %>
+<div class="row">
+  <% @movies_api.each do |movie| %>
+    <% if movie.poster_path %>
+      <% @movie_detail = Tmdb::Movie.detail(movie.id) %>
+    <div class="col-sm-6 col-md-3">
+      <div class="thumbnail">
+        <%= link_to(image_tag('https://image.tmdb.org/t/p/w396' + movie.poster_path, class: 'image', size:"400x600"), new_movie_path(:params => {:title => movie.title, :description => @movie_detail['overview'], :movie_length => @movie_detail['runtime'], :director => @movie_detail['director'], :image => 'https://image.tmdb.org/t/p/w396' + movie.poster_path } )) if movie.poster_path %>
+      </div>
+    </div>
+    <% end %>
+  <% end %>
+<% end %>

@@ -15,12 +15,14 @@ gem 'bootstrap-sass', '~> 3.3.3'
 gem 'rmagick', '~> 2.13.4'
 gem 'searchkick', '~> 0.8.7'
 gem 'puma',           '2.11.1'
+gem 'themoviedb'
 
 group :development, :test do
   gem 'sqlite3',     '1.3.9'
   gem 'byebug',      '3.4.0'
   gem 'web-console', '2.0.0.beta3'
   gem 'spring',      '1.1.3'
+  gem 'byebug',      '3.4.0'
 end
 
 group :production do

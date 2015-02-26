@@ -6,6 +6,7 @@ class MoviesController < ApplicationController
   def search
     if params[:search].present?
       @movies = Movie.search(params[:search])
+      @movies_api = Tmdb::Movie.find(params[:search])
     else
       @movies = Movie.all
     end
@@ -33,7 +34,7 @@ class MoviesController < ApplicationController
 
   def create
     @movie = current_user.movies.build(movie_params)
-
+    @movie.image_from_url(params[:image_url])
     respond_to do |format|
       if @movie.save
         format.html { redirect_to @movie, notice: 'Movie was successfully created.' }
