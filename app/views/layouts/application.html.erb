@@ -14,7 +14,7 @@
     <% end %>
     <%= yield %>
   </div>
-  <p>Some requests come from <%= link_to 'TMDB', 'https://www.themoviedb.org' %>
+  <p>*Some requests come from <%= link_to 'TMDB', 'https://www.themoviedb.org' %>
   <%= debug(params) if Rails.env.development? %>
 </body>
 </html>
