@@ -16,6 +16,7 @@ gem 'rmagick', '~> 2.13.4'
 gem 'searchkick', '~> 0.8.7'
 gem 'puma',           '2.11.1'
 gem 'themoviedb'
+gem 'acts_as_votable', '~> 0.10.0'
 
 group :development, :test do
   gem 'sqlite3',     '1.3.9'

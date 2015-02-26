@@ -7,6 +7,10 @@ Rails.application.routes.draw do
       get 'search'
     end
     resources :reviews, except: [:show, :index]
+    member do
+      put "like", to: "movies#upvote"
+      put "dislike", to: "movies#downvote"
+    end
   end
   
   root 'movies#index'

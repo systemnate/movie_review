@@ -1,6 +1,7 @@
 class MoviesController < ApplicationController
   before_action :set_movie, only: [:show, :edit, :update, :destroy]
   before_action :authenticate_user!, except: [:index, :show]
+
   attr_accessor :image_file_name
 
   def search
@@ -13,7 +14,7 @@ class MoviesController < ApplicationController
   end
 
   def index
-    @movies = Movie.all
+    @movies = Movie.all.order('cached_votes_up DESC')
   end
 
   def show
@@ -64,6 +65,18 @@ class MoviesController < ApplicationController
       format.html { redirect_to movies_url, notice: 'Movie was successfully destroyed.' }
       format.json { head :no_content }
     end
+  end
+  
+  def upvote
+    @movie = Movie.find(params[:id])
+    @movie.upvote_by current_user
+    redirect_to :back
+  end
+   
+  def downvote
+    @movie = Movie.find(params[:id])
+    @movie.downvote_by current_user
+    redirect_to :back
   end
 
   private

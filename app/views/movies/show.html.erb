@@ -49,6 +49,18 @@
             </div>
           <% end %>
         <% end %>
+          <div class="btn-group pull-left">
+            <%= link_to like_movie_path(@movie), method: :put, class: "btn btn-default btn-sm" do %>
+              <span class="glyphicon glyphicon-chevron-up"></span>
+              Like
+              <%= @movie.get_upvotes.size %>
+            <% end %>
+            <%= link_to dislike_movie_path(@movie), method: :put, class: "btn btn-default btn-sm" do %>
+              <span class="glyphicon glyphicon-chevron-down">
+              Dislike
+              <%= @movie.get_downvotes.size %>
+            <% end %>
+          </div>        
       </div>
     </div>
   </div>

@@ -1,7 +1,7 @@
 <% if !user_signed_in? %>
   <div class="jumbotron">
-    <h1>Your Favorite Movies Reviewed</h1>
-    <p>Review your favorite movies today!  Created to learn Ruby on Rails :-)</p>
+    <h1>You've Never Seen That?</h1>
+    <p>What are the MUST see movies?  Sign up, add some movies, and vote on the ones you think are must see movies!</p>
     <p><%= link_to "Sign Up To Write a Review!", new_user_registration_path, class: "btn btn-primary btn-lg" %></p>
   </div>
 <% end %>
@@ -11,6 +11,18 @@
       <div class="thumbnail">
         <%= link_to (image_tag movie.image.url(:medium), class: 'image'), movie %>
       </div>
+       <div class="btn-group pull-left">
+          <%= link_to like_movie_path(movie), method: :put, class: "btn btn-default btn-sm" do %>
+            <span class="glyphicon glyphicon-chevron-up"></span>
+            Like
+            <%= movie.get_upvotes.size %>
+          <% end %>
+          <%= link_to dislike_movie_path(movie), method: :put, class: "btn btn-default btn-sm" do %>
+            <span class="glyphicon glyphicon-chevron-down">
+            Dislike
+            <%= movie.get_downvotes.size %>
+          <% end %>
+        </div>              
     </div>
   <% end %>
 </div>
