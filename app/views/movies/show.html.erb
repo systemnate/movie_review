@@ -45,6 +45,7 @@
             <div class="reviews">
               <div class="star-rating" data-score= <%= review.rating %></div>
               <p><%= review.comment %></p>
+              <p><%= User.find(Review.find(review.id).user_id).email %></p>
             </div>
           <% end %>
         <% end %>
