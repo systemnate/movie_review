@@ -23,6 +23,7 @@ body {
 
 .review_title {
   margin: 0 0 20px 0;
+  color: black;
 }
 .reviews {
   padding: 15px 0;
@@ -32,18 +33,26 @@ body {
   }
 }
 
+.reviews p {
+  color: black;
+}
+
 p {
-  color: white
+  color: white;
 }
 
 h1, h2, h3, li {
-  color: white
+  color: white;
 }
 
 label {
-  color: white
+  color: white;
 }
 
 .jumbotron p {
   color: blue
+}
+
+.col-md-7 p {
+  color: black
 }
