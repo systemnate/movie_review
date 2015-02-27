@@ -2,6 +2,8 @@ class ReviewsController < ApplicationController
   before_action :set_review, only: [:show, :edit, :update, :destroy]
   before_action :authenticate_user!
   before_action :set_movie
+  before_action :admin_user, only: [:destroy]
+
   def index
     @reviews = Review.all
   end
@@ -46,10 +48,10 @@ class ReviewsController < ApplicationController
   def destroy
     @review.destroy
     respond_to do |format|
-      format.html { redirect_to reviews_url, notice: 'Review was successfully destroyed.' }
+      format.html { redirect_to @movie, notice: 'Review was successfully destroyed.' }
       format.json { head :no_content }
     end
-    redirect_to root_path
+    #redirect_to root_path
   end
 
   private
@@ -65,4 +67,8 @@ class ReviewsController < ApplicationController
     def review_params
       params.require(:review).permit(:rating, :comment)
     end
+
+    def admin_user
+      redirect_to(root_url) unless current_user.admin?
+    end    
 end

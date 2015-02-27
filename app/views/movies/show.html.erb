@@ -46,6 +46,10 @@
               <div class="star-rating" data-score= <%= review.rating %></div>
               <p><%= review.comment %></p>
               <p><%= User.find(Review.find(review.id).user_id).email %></p>
+              <% if current_user.admin %>
+                <%= link_to "delete", movie_review_path(movie_id: review.movie_id, id: review.id), method: :delete,
+                                data: { confirm: "You sure?" } %>
+              <% end %>
             </div>
           <% end %>
         <% end %>
