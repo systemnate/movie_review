@@ -13,33 +13,33 @@
     </div>
   <% end %>
 
-  <div class="field">
+  <div class="form-group">
     <%= f.label :title %><br>
-    <%= f.text_field :title %>
+    <%= f.text_field :title, class: "form-control" %>
   </div>
-  <div class="field">
+  <div class="form-group">
     <%= f.label :description %><br>
-    <%= f.text_area :description %>
+    <%= f.text_area :description, class: "form-control" %>
   </div>
-  <div class="field">
+  <div class="form-group">
     <%= f.label :movie_length %><br>
-    <%= f.text_field :movie_length %>
+    <%= f.text_field :movie_length, class: "form-control" %>
   </div>
-  <div class="field">
+  <div class="form-group">
     <%= f.label :director %><br>
-    <%= f.text_field :director %>
+    <%= f.text_field :director, class: "form-control" %>
   </div>
-  <div class="field">
+  <div class="form-group">
     <%= f.label :rating %><br>
-    <%= f.text_field :rating %>
+    <%= f.text_field :rating, class: "form-control" %>
   </div>
   <p>Image URL:</p>
-  <div class="field">
+  <div class="form-group">
     <%= f.label :image %><br>
-    <%= f.text_field :image %>
+    <%= f.text_field :image, class: "form-control" %>
   </div>
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit 'Save Changes!', class: "btn btn-default" %>
   </div>
 <% end %>
 

@@ -11,32 +11,32 @@
     </div>
   <% end %>
 
-  <div class="field">
+  <div class="form-group">
     <%= f.label :title %><br>
-    <%= f.text_field :title, :value => params[:title] %>
+    <%= f.text_field :title, :value => params[:title], class: "form-control" %>
   </div>
-  <div class="field">
+  <div class="form-group">
     <%= f.label :description %><br>
-    <%= f.text_area :description, :value => params[:description] %>
+    <%= f.text_area :description, :value => params[:description], class: "form-control" %>
   </div>
-  <div class="field">
+  <div class="form-group">
     <%= f.label :movie_length %><br>
-    <%= f.text_field :movie_length, :value => params[:movie_length] %>
+    <%= f.text_field :movie_length, :value => params[:movie_length], class: "form-control" %>
   </div>
-  <div class="field">
+  <div class="form-group">
     <%= f.label :director %><br>
-    <%= f.text_field :director, :value => params[:director] %>
+    <%= f.text_field :director, :value => params[:director], class: "form-control" %>
   </div>
-  <div class="field">
+  <div class="form-group">
     <%= f.label :rating %><br>
-    <%= f.text_field :rating %>
+    <%= f.text_field :rating, class: "form-control" %>
   </div>
   <p>Image URL:</p>
-  <div class="field">
+  <div class="form-group">
     <%= f.label :image %><br>
-    <%= f.text_field :image, :value => params[:image] %>
+    <%= f.text_field :image, :value => params[:image], class: "form-control" %>
   </div>
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit 'Save Changes!', class: "btn btn-default" %>
   </div>
 <% end %>
