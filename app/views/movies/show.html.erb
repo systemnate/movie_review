@@ -41,6 +41,7 @@
           <h3>No reviews just yet, would you like to add the first?</h3>
           <%= link_to "Write a Review!", new_movie_review_path(@movie), class: "btn btn-danger" %>
         <% else %>
+          <%= link_to "Write a Review!", new_movie_review_path(@movie), class: "btn btn-danger" %>
           <% @reviews.each do |review| %>
             <div class="reviews">
               <div class="star-rating" data-score= <%= review.rating %></div>
@@ -64,7 +65,7 @@
               Dislike
               <%= @movie.get_downvotes.size %>
             <% end %>
-          </div>        
+          </div>
       </div>
     </div>
   </div>
