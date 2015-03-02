@@ -14,7 +14,7 @@ class MoviesController < ApplicationController
   end
 
   def index
-    @movies = Movie.paginate(page: params[:page], per_page: 32).order('cached_weighted_average DESC')
+    @movies = Movie.paginate(page: params[:page], per_page: 32).order('cached_votes_score DESC')
 
     #@movies = Movie.all.order('cached_votes_up DESC')
   end
