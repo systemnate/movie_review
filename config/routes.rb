@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
   
+  get '/about', to: 'pages_controller#about'
+  get '/google8cbf67f657da8a59.html', to: 'pages_controller#google'
   devise_for :users
   
   resources :movies do
