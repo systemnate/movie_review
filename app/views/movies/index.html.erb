@@ -22,7 +22,7 @@
             <%= movie.get_upvotes.size %>
           <% end %>
           <%= link_to dislike_movie_path(movie), method: :put, class: "btn btn-default btn-sm" do %>
-            <span class="glyphicon glyphicon-chevron-down">
+            <span class="glyphicon glyphicon-chevron-down"></span>
             Dislike
             <%= movie.get_downvotes.size %>
           <% end %>
