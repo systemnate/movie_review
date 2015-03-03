@@ -74,13 +74,20 @@ class MoviesController < ApplicationController
   def upvote
     @movie = Movie.find(params[:id])
     @movie.upvote_by current_user
-    redirect_to :back
+
+    respond_to do |format|
+      format.html { redirect_to :back }
+      format.json { render json: { count: @movie.votes_for.size } }
+    end
   end
    
   def downvote
     @movie = Movie.find(params[:id])
     @movie.downvote_by current_user
-    redirect_to :back
+    respond_to do |format|
+      format.html { redirect_to :back }
+      format.json { render json: { count: @movie.votes_for.size } }
+    end
   end
 
   private

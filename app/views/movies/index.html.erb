@@ -16,15 +16,13 @@
         <%= link_to (image_tag movie.image.url(:medium), class: 'image'), movie %>
       </div>
        <div class="btn-group pull-left">
-          <%= link_to like_movie_path(movie), method: :put, class: "btn btn-default btn-sm" do %>
+          <%= link_to like_movie_path(movie), method: :put, class: "upvote btn btn-default btn-sm", remote: true, data: { type: :json } do %>
             <span class="glyphicon glyphicon-chevron-up"></span>
-            Like
-            <%= movie.get_upvotes.size %>
+            <span class="likeit">Like <%= movie.get_upvotes.size %></span>
           <% end %>
-          <%= link_to dislike_movie_path(movie), method: :put, class: "btn btn-default btn-sm" do %>
+          <%= link_to dislike_movie_path(movie), method: :put, class: "downvote btn btn-default btn-sm", remote: true, data: { type: :json } do %>
             <span class="glyphicon glyphicon-chevron-down"></span>
-            Dislike
-            <%= movie.get_downvotes.size %>
+            <span class="dislikeit">Dislike <%= movie.get_downvotes.size %></span>
           <% end %>
         </div>              
     </div>
@@ -38,6 +36,19 @@
 
   ga('create', 'UA-60208418-1', 'auto');
   ga('send', 'pageview');
-
+</script>
+<script>
+  $('.upvote')
+    .on('ajax:send', function () { $(this).addClass('loading'); })
+    .on('ajax:complete', function () { $(this).removeClass('loading'); })
+    .on('ajax:error', function () { $(this).after('<div class="error">There was an issue.</div>'); })
+    .on('ajax:success', function (e, data, status, xhr) { $('.likeit', this).html("Like " + data.count); });
+</script>
+<script>
+  $('.downvote')
+    .on('ajax:send', function () { $(this).addClass('loading'); })
+    .on('ajax:complete', function () { $(this).removeClass('loading'); })
+    .on('ajax:error', function () { $(this).after('<div class="error">There was an issue.</div>'); })
+    .on('ajax:success', function (e, data, status, xhr) { $('.dislikeit', this).html("Dislike " + data.count); });
 </script>
 <%= will_paginate %>
