@@ -41,14 +41,14 @@
   $('.upvote')
     .on('ajax:send', function () { $(this).addClass('loading'); })
     .on('ajax:complete', function () { $(this).removeClass('loading'); })
-    .on('ajax:error', function () { $(this).after('<div class="error">There was an issue.</div>'); })
+    .on('ajax:error', function () { window.location.replace("<%= new_user_session_path %>"); })
     .on('ajax:success', function (e, data, status, xhr) { $('.likeit', this).html("Like " + data.count); });
 </script>
 <script>
   $('.downvote')
     .on('ajax:send', function () { $(this).addClass('loading'); })
     .on('ajax:complete', function () { $(this).removeClass('loading'); })
-    .on('ajax:error', function () { $(this).after('<div class="error">There was an issue.</div>'); })
+    .on('ajax:error', function () { window.location.replace("<%= new_user_session_path %>"); })
     .on('ajax:success', function (e, data, status, xhr) { $('.dislikeit', this).html("Dislike " + data.count); });
 </script>
 <%= will_paginate %>
