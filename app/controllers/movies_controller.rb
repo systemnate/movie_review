@@ -6,7 +6,7 @@ class MoviesController < ApplicationController
 
   def search
     if params[:search].present?
-      @movies = Movie.search(params[:search])
+      @movies = Movie.search params[:search], fields: [:title]
       @movies_api = Tmdb::Movie.find(params[:search])
     else
       @movies = Movie.all
