@@ -16,3 +16,5 @@
 !/log/.keep
 /tmp
 public/system/movies/images
+# Ignore .env used by dotenv-rails
+/.env
