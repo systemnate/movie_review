@@ -50,11 +50,11 @@ label {
 }
 
 .jumbotron p {
-  color: blue
+  color: blue;
 }
 
 .col-md-7 p {
-  color: black
+  color: black;
 }
 
 .btn-group {
@@ -62,5 +62,21 @@ label {
 }
 
 h1 small {
-  color: white
+  color: white;
+}
+
+a.alogin:visited {
+  color: white;
+}
+
+a.alogin:hover {
+  color:white;
+}
+
+a.alogin {
+  color:white;
+}
+
+a.alogin:hover {
+  color:white;
 }
