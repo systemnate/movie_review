@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get '/about', to: 'pages_controller#about'
   get '/sitemap.xml', to: 'pages_controller#sitemap'
   get '/google8cbf67f657da8a59.html', to: 'pages_controller#google'
+  get '/fresh', to: 'movies#fresh'
   # Devise / OmniAuth
   devise_for :users, :controllers => { :omniauth_callbacks => "users/omniauth_callbacks" }
   #devise_scope :user do
