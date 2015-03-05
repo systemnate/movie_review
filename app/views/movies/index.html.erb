@@ -16,11 +16,11 @@
         <%= link_to (image_tag movie.image.url(:medium), class: 'image'), movie %>
       </div>
        <div class="btn-group pull-left">
-          <%= link_to like_movie_path(movie), method: :put, class: "upvote btn btn-default btn-sm", remote: true, data: { type: :json } do %>
+          <%= link_to like_movie_path(movie), method: :put, class: "upvote btn btn-default btn-lg", remote: true, data: { type: :json } do %>
             <span class="glyphicon glyphicon-chevron-up"></span>
             <span class="likeit">Like <%= movie.get_upvotes.size %></span>
           <% end %>
-          <%= link_to dislike_movie_path(movie), method: :put, class: "downvote btn btn-default btn-sm", remote: true, data: { type: :json } do %>
+          <%= link_to dislike_movie_path(movie), method: :put, class: "downvote btn btn-default btn-lg", remote: true, data: { type: :json } do %>
             <span class="glyphicon glyphicon-chevron-down"></span>
             <span class="dislikeit">Dislike <%= movie.get_downvotes.size %></span>
           <% end %>
