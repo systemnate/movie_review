@@ -39,9 +39,9 @@
 
         <% if @reviews.blank? %>
           <h3>No reviews just yet, would you like to add the first?</h3>
-          <%= link_to "Write a Review!", new_movie_review_path(@movie), class: "btn btn-danger" %>
+          <%= link_to "Write a Review!", new_movie_review_path(@movie), class: "btn btn-danger btn-lg" %>
         <% else %>
-          <%= link_to "Write a Review!", new_movie_review_path(@movie), class: "btn btn-danger" %>
+          <%= link_to "Write a Review!", new_movie_review_path(@movie), class: "btn btn-danger btn-lg" %>
           <% @reviews.each do |review| %>
             <div class="reviews">
               <div class="star-rating" data-score= <%= review.rating %></div>
@@ -51,12 +51,12 @@
           <% end %>
         <% end %>
           <div class="btn-group pull-left">
-            <%= link_to like_movie_path(@movie), method: :put, class: "btn btn-default btn-sm" do %>
+            <%= link_to like_movie_path(@movie), method: :put, class: "btn btn-default btn-lg" do %>
               <span class="glyphicon glyphicon-chevron-up"></span>
               Like
               <%= @movie.get_upvotes.size %>
             <% end %>
-            <%= link_to dislike_movie_path(@movie), method: :put, class: "btn btn-default btn-sm" do %>
+            <%= link_to dislike_movie_path(@movie), method: :put, class: "btn btn-default btn-lg" do %>
               <span class="glyphicon glyphicon-chevron-down">
               Dislike
               <%= @movie.get_downvotes.size %>
