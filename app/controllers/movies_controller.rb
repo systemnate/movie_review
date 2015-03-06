@@ -14,7 +14,7 @@ class MoviesController < ApplicationController
   end
 
   def index
-    @movies = Movie.order('cached_votes_score DESC').page(params[:page]).per_page(32)
+    @movies = Movie.order('cached_votes_score DESC', :id).page(params[:page]).per_page(32)
   end
 
   def fresh
