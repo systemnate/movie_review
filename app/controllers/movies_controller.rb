@@ -14,11 +14,11 @@ class MoviesController < ApplicationController
   end
 
   def index
-    @movies = Movie.order('cached_votes_score DESC').page(params[:page]).per_page(32)
+    @movies = Movie.order('cached_votes_score DESC')#.page(params[:page]).per_page(32)
   end
 
   def fresh
-    @movies = Movie.paginate(page: params[:page], per_page: 32).where("created_at > ?", 2.days.ago).order('cached_votes_score DESC')
+    @movies = Movie.where("created_at > ?", 2.days.ago).order('cached_votes_score DESC').page(params[:page]).per_page(32)
   end
 
   def show
