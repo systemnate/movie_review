@@ -17,10 +17,11 @@ gem 'searchkick',               '~> 0.8.7'
 gem 'puma',                     '2.11.1'
 gem 'themoviedb'    
 gem 'acts_as_votable',          '~> 0.10.0'
-gem 'will_paginate',            '3.0.7'
 gem 'bootstrap-will_paginate',  '0.0.10'
 gem 'omniauth'
 gem 'omniauth-facebook'
+gem 'kaminari'
+gem 'bootstrap-kaminari-views'
 
 group :development, :test do
   gem 'sqlite3',     '1.3.9'

@@ -14,7 +14,10 @@ class MoviesController < ApplicationController
   end
 
   def index
-    @movies = Movie.paginate(page: params[:page], per_page: 32).order('cached_votes_score DESC')
+    # will_paginate:
+    # @movies = Movie.paginate(page: params[:page], per_page: 32).order('cached_votes_score DESC')
+    # kamminari
+    @movies = Movie.order('cached_votes_score DESC').page(params[:page]).per_page(8)
   end
 
   def fresh

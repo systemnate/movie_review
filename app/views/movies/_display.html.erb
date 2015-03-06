@@ -1,4 +1,4 @@
-<%= will_paginate %>
+<%= paginate @movies, theme: 'twitter-bootstrap-3' %>
 <div class="row">
   <% @movies.each do |movie| %>
     <% if movie.image_file_name %>
@@ -20,4 +20,4 @@
     <% end %>
   <% end %>
 </div>
-<%= will_paginate %>
+<%= paginate @movies, theme: 'twitter-bootstrap-3' %>
