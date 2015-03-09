@@ -23,7 +23,7 @@
       </ul>
       <%= form_tag search_movies_path, method: :get, class: "navbar-form navbar-right", role: "search" do %>
         <p>
-          <%= text_field_tag :search, params[:search], class: "form-control", value: "Search for a movie!", onfocus: "this.value=''", size: 20 %>
+          <%= text_field_tag :search, params[:search], class: "form-control", value: "Search for a movie!", onfocus: "this.value=''", size: 15 %>
           <%= submit_tag "Search", name:nil, class: "btn btn-default" %>
         </p>
       <% end %>
