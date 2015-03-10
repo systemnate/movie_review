@@ -7,6 +7,7 @@
 <% end %>
 <div class="page-header">
   <h1>Must see?  Click Like.<small>  Don't Agree?  Click Dislike.</small></h1>
+  <strong><%= link_to "About", about_path, class: "btn btn-info" %></strong>
   <%= link_to "Recently Added", fresh_path, class: "btn btn-primary" %>
 </div>
 <%= render partial: 'display' %>
