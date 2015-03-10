@@ -4,7 +4,7 @@
     <% if movie.image_file_name %>
       <div class="col-sm-6 col-md-3">
         <div class="thumbnail">
-          <%= link_to (image_tag movie.image.url(:medium), class: 'image'), movie %>
+          <%= link_to (image_tag movie.image.url(:medium), class: 'image', alt: movie.title), movie %>
         </div>
          <div class="btn-group pull-left">
             <%= link_to like_movie_path(movie), method: :put, class: "upvote btn btn-default btn-lg", remote: true, data: { type: :json } do %>
