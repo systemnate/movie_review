@@ -8,146 +8,546 @@
 
 <url>
   <loc>http://www.neverscene.net/</loc>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>http://www.neverscene.net/users/sign_up</loc>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>http://www.neverscene.net/users/sign_in</loc>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://www.neverscene.net/movies?page=1</loc>
+  <loc>http://www.neverscene.net/about</loc>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://www.neverscene.net/movies?page=2</loc>
+  <loc>http://www.neverscene.net/?page=2</loc>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://www.neverscene.net/movies/13</loc>
+  <loc>http://www.neverscene.net/?page=3</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/?page=4</loc>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>http://www.neverscene.net/movies/14</loc>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://www.neverscene.net/movies/16</loc>
-</url>
-<url>
-  <loc>http://www.neverscene.net/movies/24</loc>
-</url>
-<url>
-  <loc>http://www.neverscene.net/movies/11</loc>
-</url>
-<url>
-  <loc>http://www.neverscene.net/movies/43</loc>
-</url>
-<url>
-  <loc>http://www.neverscene.net/movies/25</loc>
-</url>
-<url>
-  <loc>http://www.neverscene.net/movies/26</loc>
-</url>
-<url>
-  <loc>http://www.neverscene.net/movies/36</loc>
-</url>
-<url>
-  <loc>http://www.neverscene.net/movies/27</loc>
-</url>
-<url>
-  <loc>http://www.neverscene.net/movies/32</loc>
-</url>
-<url>
-  <loc>http://www.neverscene.net/movies/22</loc>
+  <loc>http://www.neverscene.net/movies/13</loc>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>http://www.neverscene.net/movies/20</loc>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://www.neverscene.net/movies/10</loc>
-</url>
-<url>
-  <loc>http://www.neverscene.net/movies/34</loc>
-</url>
-<url>
-  <loc>http://www.neverscene.net/movies/23</loc>
-</url>
-<url>
-  <loc>http://www.neverscene.net/movies/42</loc>
-</url>
-<url>
-  <loc>http://www.neverscene.net/movies/44</loc>
-</url>
-<url>
-  <loc>http://www.neverscene.net/movies/40</loc>
-</url>
-<url>
-  <loc>http://www.neverscene.net/movies/18</loc>
-</url>
-<url>
-  <loc>http://www.neverscene.net/movies/19</loc>
-</url>
-<url>
-  <loc>http://www.neverscene.net/movies/21</loc>
-</url>
-<url>
-  <loc>http://www.neverscene.net/movies/28</loc>
-</url>
-<url>
-  <loc>http://www.neverscene.net/movies/29</loc>
-</url>
-<url>
-  <loc>http://www.neverscene.net/movies/17</loc>
-</url>
-<url>
-  <loc>http://www.neverscene.net/movies/12</loc>
-</url>
-<url>
-  <loc>http://www.neverscene.net/movies/9</loc>
-</url>
-<url>
-  <loc>http://www.neverscene.net/movies/30</loc>
-</url>
-<url>
-  <loc>http://www.neverscene.net/movies/35</loc>
-</url>
-<url>
-  <loc>http://www.neverscene.net/movies/31</loc>
-</url>
-<url>
-  <loc>http://www.neverscene.net/movies/38</loc>
-</url>
-<url>
-  <loc>http://www.neverscene.net/movies/33</loc>
-</url>
-<url>
-  <loc>http://www.neverscene.net/users/password/new</loc>
-</url>
-<url>
-  <loc>http://www.neverscene.net/movies/39</loc>
-</url>
-<url>
-  <loc>http://www.neverscene.net/movies/41</loc>
-</url>
-<url>
-  <loc>http://www.neverscene.net/movies/46</loc>
-</url>
-<url>
-  <loc>http://www.neverscene.net/movies/47</loc>
-</url>
-<url>
-  <loc>http://www.neverscene.net/movies/49</loc>
+  <loc>http://www.neverscene.net/movies/36</loc>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>http://www.neverscene.net/movies/48</loc>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://www.neverscene.net/movies/45</loc>
+  <loc>http://www.neverscene.net/movies/27</loc>
+  <changefreq>daily</changefreq>
 </url>
 <url>
-  <loc>http://www.neverscene.net/movies/37</loc>
+  <loc>http://www.neverscene.net/movies/16</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/23</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/24</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/10</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/11</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/30</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/32</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/34</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/40</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/61</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/9</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/17</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/18</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/21</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/25</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/33</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/41</loc>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>http://www.neverscene.net/movies/50</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/65</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/19</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/22</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/35</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/37</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/49</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/52</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/53</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/users/password/new</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/55</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/58</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/59</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/64</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/66</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/69</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/99</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/106</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/109</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/122</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/125</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/26</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/28</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/31</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/42</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/43</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/46</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/47</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/60</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/68</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/71</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/107</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/108</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/113</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/117</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/123</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/124</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/12</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/29</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/38</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/45</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/51</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/56</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/67</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/72</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/75</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/76</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/77</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/81</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/90</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/92</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/98</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/102</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/104</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/105</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/110</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/115</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/39</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/44</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/62</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/63</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/70</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/73</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/74</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/78</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/79</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/80</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/82</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/83</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/84</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/85</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/86</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/87</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/88</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/89</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/91</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/93</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/94</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/95</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/96</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/97</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/100</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/101</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/103</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/111</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/112</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/114</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/116</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/118</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/119</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/120</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/121</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/126</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/127</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/128</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/129</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/130</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/131</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/133</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/134</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/136</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/132</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/135</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/137</loc>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.neverscene.net/movies/57</loc>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>http://www.neverscene.net/movies</loc>
+  <changefreq>daily</changefreq>
 </url>
 </urlset>
