@@ -1,5 +1,5 @@
 class MoviesController < ApplicationController
-  caches_page :index
+  #caches_page :index
   before_action :set_movie, only: [:show, :edit, :update, :destroy]
   before_action :authenticate_user!, except: [:index, :show, :fresh]
 
@@ -41,7 +41,7 @@ class MoviesController < ApplicationController
   end
 
   def create
-    expire_page :action => :index
+    #expire_page :action => :index
     @movie = current_user.movies.build(movie_params)
     @movie.image_from_url(params[:image_url])
     respond_to do |format|
