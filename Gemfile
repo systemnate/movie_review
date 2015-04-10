@@ -22,6 +22,8 @@ gem 'omniauth'
 gem 'omniauth-facebook'
 gem 'kaminari'
 gem 'bootstrap-kaminari-views'
+gem 'actionpack-page_caching'
+gem 'actionpack-action_caching'
 
 group :development, :test do
   gem 'sqlite3',     '1.3.9'

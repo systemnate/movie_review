@@ -41,6 +41,7 @@ class MoviesController < ApplicationController
   end
 
   def create
+    expire_page :action => :index
     @movie = current_user.movies.build(movie_params)
     @movie.image_from_url(params[:image_url])
     respond_to do |format|
