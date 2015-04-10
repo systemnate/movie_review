@@ -1,4 +1,5 @@
 class MoviesController < ApplicationController
+  caches_page :index
   before_action :set_movie, only: [:show, :edit, :update, :destroy]
   before_action :authenticate_user!, except: [:index, :show, :fresh]
 
